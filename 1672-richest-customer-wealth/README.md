@@ -59,5 +59,6 @@ We need to calculate the total wealth of each customer and return the highest we
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2190970408](https://leetcode.com/problems/richest-customer-wealth/submissions/2190970408/) | 2026-11-06 21:42:37 | python3 | [Source](submissions/2190970408.py) |
 | [2190968750](https://leetcode.com/problems/richest-customer-wealth/submissions/2190968750/) | 2026-11-06 21:35:52 | cpp | [Source](submissions/2190968750.cpp) |
 <!-- leetcode-notes-sync:end -->
