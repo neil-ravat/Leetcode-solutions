@@ -57,6 +57,7 @@ Each element is copied twice:
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2190963047](https://leetcode.com/problems/concatenation-of-array/submissions/2190963047/) | 2026-11-06 21:13:23 | python3 | [Source](submissions/2190963047.py) |
 | [2190961305](https://leetcode.com/problems/concatenation-of-array/submissions/2190961305/) | 2026-11-06 21:06:52 | cpp | [Source](submissions/2190961305.cpp) |
 | [2044588613](https://leetcode.com/problems/concatenation-of-array/submissions/2044588613/) | 2026-06-24 12:21:05 | python3 | [Source](submissions/2044588613.py) |
 <!-- leetcode-notes-sync:end -->
