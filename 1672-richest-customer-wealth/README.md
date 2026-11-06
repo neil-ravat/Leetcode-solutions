@@ -9,6 +9,57 @@
 
 ### Submission notes
 
+From accepted submission [#2190970408](https://leetcode.com/problems/richest-customer-wealth/submissions/2190970408/).
+
+# LeetCode 1672 — Richest Customer Wealth (Python)
+
+**Difficulty:** Easy  
+**Topics:** 2D Arrays, Nested Loops, Running Sum, Maximum
+
+### 1. Intuition
+Each row in `accounts` represents a customer, and each element represents their bank balance.
+
+We need to calculate the total wealth of each customer and return the highest wealth.
+
+### 2. Approach
+1. Initialize `largest = 0` to track the maximum wealth.
+2. Use an outer loop to iterate through each customer.
+3. Initialize `total = 0` for every new customer.
+4. Use an inner loop to add all bank balances of that customer.
+5. After calculating the total, compare it with `largest`.
+6. Update `largest` if the current wealth is greater.
+7. Return `largest`.
+
+### 3. Example
+**Input:** `accounts = [[1,5],[7,3],[3,5]]`
+
+**Calculations:**
+- Customer 1: 1 + 5 = 6
+- Customer 2: 7 + 3 = 10
+- Customer 3: 3 + 5 = 8
+
+**Output:** `10`
+
+### 4. Complexity Analysis
+- **Time Complexity: O(m × n)** — We visit every bank balance once, where `m` is the number of customers and `n` is the number of banks per customer.
+- **Space Complexity: O(1)** — We only use a few variables without creating another list.
+
+### 5. Key Learnings
+- `list[list[int]]` represents a 2D list.
+- `accounts[i][j]` accesses an element using row and column indices.
+- `len(accounts)` gives the number of customers.
+- `len(accounts[i])` gives the number of banks for customer `i`.
+- Reset `total = 0` for every customer, not every bank.
+- Update `largest` after calculating the complete row sum.
+- Python's built-in `sum()` and `max()` functions can simplify the solution.
+- Avoid naming a variable `sum` because it shadows Python's built-in `sum()` function.
+
+**Pattern to Remember:** Nested Loops + Row Sum + Running Maximum
+
+---
+
+### Submission notes
+
 From accepted submission [#2190968750](https://leetcode.com/problems/richest-customer-wealth/submissions/2190968750/).
 
 # LeetCode 1672 — Richest Customer Wealth (C++)
