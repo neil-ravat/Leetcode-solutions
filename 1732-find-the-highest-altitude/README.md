@@ -9,6 +9,49 @@
 
 ### Submission notes
 
+From accepted submission [#2190893562](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190893562/).
+
+# LeetCode 1732 — Find the Highest Altitude (Optimized)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Prefix Sum, Running Maximum
+
+### 1. Intuition
+The biker starts at altitude 0. Each value in `gain` represents an increase or decrease in altitude.
+
+Instead of storing all altitudes in a separate array, we can calculate the current altitude and track the highest altitude while traversing the input.
+
+### 2. Approach
+1. Initialize `altitude = 0` and `highest = 0`.
+2. Traverse the `gain` array once.
+3. Update the current altitude using `altitude += gain[i]`.
+4. If `altitude >= highest`, update `highest = altitude`.
+5. Return `highest`.
+
+### 3. Example
+**Input:** `gain = [-5, 1, 5, 0, -7]`
+
+**Altitudes:** `0 → -5 → -4 → 1 → 1 → -6`
+
+**Output:** `1`
+
+### 4. Complexity Analysis
+- **Time Complexity: O(n)** — We traverse the array only once.
+- **Space Complexity: O(1)** — We use only two variables, regardless of input size.
+
+### 5. Key Learnings
+- We don't need to store every intermediate result if only the maximum is required.
+- Updating the running sum and maximum in the same loop saves memory.
+- Initialize `highest = 0` because the starting altitude is included.
+- Both `>` and `>=` work when updating the maximum.
+- Optimization can reduce space complexity without changing time complexity.
+
+**Pattern to Remember:** Running Sum + Running Maximum + Constant Space
+
+---
+
+### Submission notes
+
 From accepted submissions [#2190737086](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190737086/), [#2190734628](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190734628/).
 
 # LeetCode 1732 — Find the Highest Altitude
