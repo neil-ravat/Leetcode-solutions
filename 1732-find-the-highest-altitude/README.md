@@ -9,6 +9,49 @@
 
 ### Submission notes
 
+From accepted submission [#2190924351](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190924351/).
+
+# LeetCode 1732 — Find the Highest Altitude (Python Optimized)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Prefix Sum, Running Maximum
+
+### 1. Intuition
+The biker starts at altitude 0. Each value in `gain` represents an increase or decrease in altitude.
+
+We don't need to store all the altitudes. Instead, we can calculate the current altitude and keep track of the highest altitude reached so far.
+
+### 2. Approach
+1. Initialize `altitude = 0` and `highest = 0`.
+2. Traverse each element in `gain`.
+3. Update the current altitude using `altitude += x`.
+4. If the current altitude is greater than or equal to `highest`, update `highest`.
+5. Return the maximum altitude.
+
+### 3. Example
+**Input:** `gain = [-5, 1, 5, 0, -7]`
+
+**Altitude changes:** `0 → -5 → -4 → 1 → 1 → -6`
+
+**Output:** `1`
+
+### 4. Complexity Analysis
+- **Time Complexity: O(n)** — We traverse the array once.
+- **Space Complexity: O(1)** — We use only two variables, regardless of input size.
+
+### 5. Key Learnings
+- Running sum calculates cumulative values.
+- Running maximum tracks the highest value encountered.
+- We can avoid creating an extra list when previous values are not needed.
+- Python's `for x in gain` directly accesses each element.
+- `>=` and `>` both work for updating the maximum.
+
+**Pattern to Remember:** Running Sum + Running Maximum + Constant Space
+
+---
+
+### Submission notes
+
 From accepted submission [#2190893562](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190893562/).
 
 # LeetCode 1732 — Find the Highest Altitude (Optimized)
