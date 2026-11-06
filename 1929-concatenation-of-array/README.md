@@ -9,6 +9,46 @@
 
 ### Submission notes
 
+From accepted submission [#2190963047](https://leetcode.com/problems/concatenation-of-array/submissions/2190963047/).
+
+# LeetCode 1929 — Concatenation of Array (Python)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Lists, Indexing
+
+### 1. Intuition
+We need to create a new array containing two copies of the original array. We can achieve this by placing each element at its original index and at an index shifted by the original array length.
+
+### 2. Approach
+1. Store the original array length in `n`.
+2. Create a result list `ans` of size `2 * n`.
+3. Traverse the input array using `range(n)`.
+4. Store each element at `ans[i]`.
+5. Store the same element at `ans[i + n]`.
+6. Return `ans`.
+
+### 3. Example
+**Input:** `nums = [1, 2, 3]`
+
+**Output:** `[1, 2, 3, 1, 2, 3]`
+
+### 4. Complexity Analysis
+- **Time Complexity: O(n)** — We traverse the input array once.
+- **Space Complexity: O(n)** — The result list contains `2n` elements.
+
+### 5. Key Learnings
+- `len(nums)` returns the number of elements.
+- `[0] * (2 * n)` creates a list with `2n` positions.
+- `range(n)` provides indices from 0 to `n - 1`.
+- `ans[i + n]` places an element in the second half.
+- Python also supports `nums + nums` for direct concatenation.
+
+**Pattern to Remember:** Array Construction + Index Offset (`i + n`)
+
+---
+
+### Submission notes
+
 From accepted submission [#2190961305](https://leetcode.com/problems/concatenation-of-array/submissions/2190961305/).
 
 # LeetCode 1929 — Concatenation of Array (C++)
