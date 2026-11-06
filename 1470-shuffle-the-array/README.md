@@ -9,6 +9,40 @@
 
 ### Submission notes
 
+From accepted submission [#2190973164](https://leetcode.com/problems/shuffle-the-array/submissions/2190973164/).
+
+# LeetCode 1470 — Shuffle the Array (Python)
+
+**Difficulty:** Easy  
+**Topic:** Arrays, Indexing
+
+### Intuition
+Rearrange the array by alternately taking elements from the first and second halves.
+
+### Approach
+1. Create `ans` of size `2*n`.
+2. Iterate through the first `n` elements.
+3. Place `nums[i]` at index `2*i`.
+4. Place `nums[i+n]` at index `2*i+1`.
+5. Return `ans`.
+
+### Example
+**Input:** `[2,5,1,3,4,7]`, `n=3`  
+**Output:** `[2,3,5,4,1,7]`
+
+### Complexity
+- **Time:** O(n) — One loop.
+- **Space:** O(n) — Additional output list.
+
+### Key Learning
+Use `2*i` and `2*i+1` to fill alternating positions.
+
+**Pattern:** Array Interleaving + Index Mapping
+
+---
+
+### Submission notes
+
 From accepted submission [#2190972632](https://leetcode.com/problems/shuffle-the-array/submissions/2190972632/).
 
 # LeetCode 1470 — Shuffle the Array (C++)
@@ -43,5 +77,6 @@ Use `2*i` and `2*i+1` to place elements at alternating positions.
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2190973164](https://leetcode.com/problems/shuffle-the-array/submissions/2190973164/) | 2026-11-06 21:53:47 | python3 | [Source](submissions/2190973164.py) |
 | [2190972632](https://leetcode.com/problems/shuffle-the-array/submissions/2190972632/) | 2026-11-06 21:51:38 | cpp | [Source](submissions/2190972632.cpp) |
 <!-- leetcode-notes-sync:end -->
