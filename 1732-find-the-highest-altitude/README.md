@@ -97,6 +97,7 @@ We calculate the altitude at every point using a running sum and then find the m
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2190924351](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190924351/) | 2026-11-06 19:17:59 | python3 | [Source](submissions/2190924351.py) |
 | [2190893562](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190893562/) | 2026-11-06 18:19:52 | cpp | [Source](submissions/2190893562.cpp) |
 | [2190737086](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190737086/) | 2026-11-06 14:13:13 | cpp | [Source](submissions/2190737086.cpp) |
 | [2190734628](https://leetcode.com/problems/find-the-highest-altitude/submissions/2190734628/) | 2026-11-06 14:08:55 | cpp | [Source](submissions/2190734628.cpp) |
