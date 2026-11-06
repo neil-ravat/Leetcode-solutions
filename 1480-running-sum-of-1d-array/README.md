@@ -61,4 +61,11 @@ Output: `[1, 3, 6, 10]`
 - `vector<int> rs(n)` creates a vector containing `n` integers.
 - Always update the running sum before storing it.
 - Running sum is a basic form of the prefix sum technique.
+
+## Accepted submissions
+
+| Submission | Submitted (UTC) | Language | Code |
+| --- | --- | --- | --- |
+| [2190662308](https://leetcode.com/problems/running-sum-of-1d-array/submissions/2190662308/) | 2026-11-06 11:32:32 | python3 | [Source](submissions/2190662308.py) |
+| [2190660307](https://leetcode.com/problems/running-sum-of-1d-array/submissions/2190660307/) | 2026-11-06 11:27:16 | cpp | [Source](submissions/2190660307.cpp) |
 <!-- leetcode-notes-sync:end -->
