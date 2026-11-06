@@ -7,5 +7,25 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+class Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+
+        int altitude = 0;
+        int highest = 0;
+
+        for (int i = 0; i < gain.size(); i++) {
+
+            // Step 1: Update current altitude
+
+
+            // Step 2: If current altitude is
+            // greater than highest, update highest
+
+
+        }
+
+        return highest;
+    }
+};
 <!-- leetcode-notes-sync:end -->
