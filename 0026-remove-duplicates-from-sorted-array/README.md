@@ -43,5 +43,6 @@ Since the array is sorted, duplicates are adjacent. Use two pointers to keep uni
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2191588476](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2191588476/) | 2026-11-07 21:46:59 | python3 | [Source](submissions/2191588476.py) |
 | [2191588161](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2191588161/) | 2026-11-07 21:45:46 | cpp | [Source](submissions/2191588161.cpp) |
 <!-- leetcode-notes-sync:end -->
