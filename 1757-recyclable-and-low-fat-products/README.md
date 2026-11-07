@@ -13,5 +13,6 @@ _No saved LeetCode notes yet._
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2191313360](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2191313360/) | 2026-11-07 14:22:52 | mysql | [Source](submissions/2191313360.sql) |
 | [2045924356](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2045924356/) | 2026-06-25 15:19:49 | mysql | [Source](submissions/2045924356.sql) |
 <!-- leetcode-notes-sync:end -->
