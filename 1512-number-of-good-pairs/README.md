@@ -9,6 +9,34 @@
 
 ### Submission notes
 
+From accepted submission [#2191157241](https://leetcode.com/problems/number-of-good-pairs/submissions/2191157241/).
+
+# LeetCode 1512 — Number of Good Pairs (Optimized Python)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Hashing, Dictionary
+
+### Intuition
+A good pair has equal values with `i < j`. Instead of checking every pair, we track how many times each number has previously appeared.
+
+### Approach
+1. Create an empty dictionary `freq` and initialize `count = 0`.
+2. Traverse each number `x` in `nums`.
+3. Add `freq.get(x, 0)` to `count`.
+4. Update its frequency using `freq[x] = freq.get(x, 0) + 1`.
+5. Return `count`.
+
+### Example
+**Input:** `[7,7,7]`  
+**Output:** `3`
+
+### Complexity
+- **Time:** O(n) average — Dictionary operations are O
+
+---
+
+### Submission notes
+
 From accepted submission [#2191153119](https://leetcode.com/problems/number-of-good-pairs/submissions/2191153119/).
 
 # LeetCode 1512 — Number of Good Pairs (Optimized C++)
@@ -78,6 +106,7 @@ Starting the inner loop from `i + 1` ensures `i < j` and prevents counting dupli
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2191157241](https://leetcode.com/problems/number-of-good-pairs/submissions/2191157241/) | 2026-11-07 08:12:35 | python3 | [Source](submissions/2191157241.py) |
 | [2191153119](https://leetcode.com/problems/number-of-good-pairs/submissions/2191153119/) | 2026-11-07 08:02:44 | cpp | [Source](submissions/2191153119.cpp) |
 | [2190977109](https://leetcode.com/problems/number-of-good-pairs/submissions/2190977109/) | 2026-11-06 22:10:28 | cpp | [Source](submissions/2190977109.cpp) |
 <!-- leetcode-notes-sync:end -->
