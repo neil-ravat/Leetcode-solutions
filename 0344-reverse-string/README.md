@@ -9,6 +9,39 @@
 
 ### Submission notes
 
+From accepted submission [#2191578213](https://leetcode.com/problems/reverse-string/submissions/2191578213/).
+
+# LeetCode 344 — Reverse String (Python)
+
+**Difficulty:** Easy  
+**Topics:** Two Pointers, Strings
+
+### Intuition
+Use two pointers from opposite ends and swap characters until they meet.
+
+### Approach
+1. Initialize `left = 0` and `right = len(s) - 1`.
+2. While `left < right`, swap the characters.
+3. Increment `left` and decrement `right`.
+4. Modify the original list directly.
+
+### Example
+**Input:** `["h","e","l","l","o"]`  
+**Output:** `["o","l","l","e","h"]`
+
+### Complexity
+- **Time:** O(n) — At most n/2 swaps.
+- **Space:** O(1) — No additional list.
+
+### Key Learning
+Python supports swapping with `a, b = b, a`. In-place problems modify the original input without returning a new list.
+
+**Pattern:** Two Pointers + In-Place Swapping
+
+---
+
+### Submission notes
+
 From accepted submission [#2191577495](https://leetcode.com/problems/reverse-string/submissions/2191577495/).
 
 # LeetCode 344 — Reverse String (C++)
