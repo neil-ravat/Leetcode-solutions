@@ -7,7 +7,35 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2191313360](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2191313360/).
+
+LeetCode 1757 — Recyclable and Low Fat Products
+Difficulty: Easy
+Topic: SELECT, WHERE, AND
+
+Intuition:
+Find products that are both low-fat and recyclable.
+
+Approach:
+1. SELECT retrieves the product_id.
+2. FROM specifies the Products table.
+3. WHERE filters records.
+4. AND ensures both conditions are true.
+
+Example:
+Output: product_id = 1, 3
+
+Complexity:
+Time: O(n) — Full table scan.
+Space: O(1) — Excluding output.
+
+Key Learnings:
+- SELECT chooses columns.
+- WHERE filters rows.
+- AND requires both conditions to be true.
+- Use single quotes for string values.
 
 ## Accepted submissions
 
