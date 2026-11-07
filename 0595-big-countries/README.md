@@ -7,7 +7,36 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2191332362](https://leetcode.com/problems/big-countries/submissions/2191332362/).
+
+LeetCode 595 — Big Countries
+Difficulty: Easy
+Topic: SELECT, WHERE, OR, Comparison Operators
+
+Intuition:
+Find countries with a large area or population.
+
+Approach:
+1. SELECT retrieves name, population, and area.
+2. FROM specifies the World table.
+3. WHERE filters countries.
+4. >= checks the minimum required values.
+5. OR includes countries meeting either condition.
+
+Example:
+Output: Afghanistan, Algeria
+
+Complexity:
+Time: O(n) — Full table scan.
+Space: O(1) — Excluding output.
+
+Key Learnings:
+- >= means greater than or equal to.
+- OR requires at least one true condition.
+- AND requires both conditions to be true.
+- SELECT column order determines output order.
 
 ## Accepted submissions
 
