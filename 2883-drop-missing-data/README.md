@@ -7,7 +7,35 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2191219282](https://leetcode.com/problems/drop-missing-data/submissions/2191219282/).
+
+LeetCode 2883 — Drop Missing Data
+Difficulty: Easy
+Topic: Pandas, Data Cleaning
+
+Intuition:
+Remove rows where the name column has missing values.
+
+Approach:
+1. Use dropna() to remove missing values.
+2. Set subset=["name"] to check only names.
+3. Return the cleaned DataFrame.
+
+Example:
+Names: [Amit, None, Priya]
+Output: [Amit, Priya]
+
+Complexity:
+Time: O(n)
+Space: O(n)
+
+Key Learnings:
+- dropna() removes rows containing missing values.
+- subset specifies which columns to check.
+- None and NaN represent missing values.
+- By default, dropna() returns a new DataFrame.
 
 ## Accepted submissions
 
