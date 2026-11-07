@@ -7,7 +7,37 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2191338256](https://leetcode.com/problems/invalid-tweets/submissions/2191338256/).
+
+LeetCode 1683 — Invalid Tweets
+Difficulty: Easy
+Topic: SELECT, WHERE, String Functions
+
+Intuition:
+Find tweets whose content exceeds 15 characters.
+
+Approach:
+1. SELECT retrieves the tweet_id.
+2. FROM specifies the Tweets table.
+3. LENGTH() measures the content length.
+4. WHERE filters tweets with length > 15.
+
+Example:
+Tweet 1: 11 characters → Valid
+Tweet 2: 33 characters → Invalid
+Output: 2
+
+Complexity:
+Time: O(n) — Row scan, plus string-length checks.
+Space: O(1) — Excluding output.
+
+Key Learnings:
+- LENGTH() returns string length in bytes.
+- CHAR_LENGTH() counts characters.
+- > means strictly greater than.
+- Spaces are included when measuring length.
 
 ## Accepted submissions
 
