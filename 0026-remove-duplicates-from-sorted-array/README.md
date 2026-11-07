@@ -9,6 +9,40 @@
 
 ### Submission notes
 
+From accepted submission [#2191588476](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2191588476/).
+
+# LeetCode 26 — Remove Duplicates from Sorted Array (Python)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Two Pointers
+
+### Intuition
+Since the array is sorted, duplicates are adjacent. Use two pointers to keep unique elements at the beginning.
+
+### Approach
+1. Initialize `j = 0` for the last unique index.
+2. Traverse from `i = 1`.
+3. If `nums[i] != nums[j]`, increment `j`.
+4. Assign `nums[j] = nums[i]`.
+5. Return `j + 1`.
+
+### Example
+**Input:** `[1,1,2,2,3]`  
+**Output:** `3`, first 3 elements `[1,2,3]`
+
+### Complexity
+- **Time:** O(n) — Single traversal.
+- **Space:** O(1) — In-place modification.
+
+### Key Learning
+The slow pointer tracks the last unique index, while the fast pointer searches for new values.
+
+**Pattern:** Two Pointers + In-Place Modification
+
+---
+
+### Submission notes
+
 From accepted submission [#2191588161](https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/2191588161/).
 
 # LeetCode 26 — Remove Duplicates from Sorted Array (C++)
