@@ -42,5 +42,6 @@ Two pointers can reverse an array in place. Use indices, not element values, and
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2191578213](https://leetcode.com/problems/reverse-string/submissions/2191578213/) | 2026-11-07 21:07:55 | python3 | [Source](submissions/2191578213.py) |
 | [2191577495](https://leetcode.com/problems/reverse-string/submissions/2191577495/) | 2026-11-07 21:05:17 | cpp | [Source](submissions/2191577495.cpp) |
 <!-- leetcode-notes-sync:end -->
