@@ -13,5 +13,6 @@ _No saved LeetCode notes yet._
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2191567901](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/submissions/2191567901/) | 2026-11-07 20:32:30 | mysql | [Source](submissions/2191567901.sql) |
 | [2046090822](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/submissions/2046090822/) | 2026-06-25 17:58:56 | mysql | [Source](submissions/2046090822.sql) |
 <!-- leetcode-notes-sync:end -->
