@@ -9,6 +9,41 @@
 
 ### Submission notes
 
+From accepted submission [#2192129427](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192129427/).
+
+# LeetCode 977 — Squares of a Sorted Array (Optimized Python)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Two Pointers
+
+### Intuition
+Since the input is sorted, the largest square must come from either end. Compare both ends and fill the result from right to left.
+
+### Approach
+1. Create `ans = [0] * n`.
+2. Initialize `left = 0`, `right = n - 1`, and `pos = n - 1`.
+3. Compare the squares at both pointers.
+4. Store the larger square at `ans[pos]`.
+5. Move only the selected pointer and decrease `pos`.
+6. Return `ans`.
+
+### Example
+**Input:** `[-4,-1,0,3,10]`  
+**Output:** `[0,1,9,16,100]`
+
+### Complexity
+- **Time:** O(n) — Each element is processed once.
+- **Space:** O(n) — Additional output list.
+
+### Key Learning
+`[0] * n` creates an indexable list of size `n`. Two Pointers allows us to construct the sorted squared array without calling `sort()`.
+
+**Pattern:** Two Pointers + Reverse Filling
+
+---
+
+### Submission notes
+
 From accepted submission [#2192127741](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192127741/).
 
 # LeetCode 977 — Squares of a Sorted Array (Optimized C++)
