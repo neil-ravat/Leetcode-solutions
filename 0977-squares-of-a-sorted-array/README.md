@@ -9,6 +9,41 @@
 
 ### Submission notes
 
+From accepted submission [#2192127741](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192127741/).
+
+# LeetCode 977 — Squares of a Sorted Array (Optimized C++)
+
+**Difficulty:** Easy  
+**Topics:** Arrays, Two Pointers
+
+### Intuition
+Since the array is sorted, the largest square must come from either end. Compare both ends and fill the result from right to left.
+
+### Approach
+1. Create `ans` of size `n`.
+2. Initialize `left = 0`, `right = n-1`, `pos = n-1`.
+3. Compare the squares at `left` and `right`.
+4. Store the larger square at `ans[pos]`.
+5. Move only the selected pointer and decrement `pos`.
+6. Repeat until `left > right`.
+
+### Example
+**Input:** `[-4,-1,0,3,10]`  
+**Output:** `[0,1,9,16,100]`
+
+### Complexity
+- **Time:** O(n) — Each element is processed once.
+- **Space:** O(n) — Additional output vector.
+
+### Key Learning
+Move only the pointer whose value was used. Filling the output from the end maintains sorted order.
+
+**Pattern:** Two Pointers + Reverse Filling
+
+---
+
+### Submission notes
+
 From accepted submission [#2192123444](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192123444/).
 
 # LeetCode 977 — Squares of a Sorted Array (C++)
