@@ -9,15 +9,6 @@
 
 ### Submission notes
 
-From accepted submission [#2192129427](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192129427/).
-
-Problems needing attention
-classes-more-than-5-students: LeetCode submissions query failed. Its API may have changed; no files were changed for this request.
-
----
-
-### Submission notes
-
 From accepted submission [#2192127741](https://leetcode.com/problems/squares-of-a-sorted-array/submissions/2192127741/).
 
 # LeetCode 977 — Squares of a Sorted Array (Optimized C++)
