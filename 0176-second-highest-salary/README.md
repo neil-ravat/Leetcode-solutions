@@ -7,7 +7,34 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2192148225](https://leetcode.com/problems/second-highest-salary/submissions/2192148225/).
+
+176. Second Highest Salary
+Difficulty: Medium
+Topic: Subqueries, Aggregation
+
+Intuition:
+Find the highest salary, exclude it, then find the
+maximum salary among the remaining employees.
+
+Approach:
+1. Inner MAX() finds the highest salary.
+2. WHERE removes salaries equal to that maximum.
+3. Outer MAX() finds the second-highest distinct salary.
+
+Example:
+[100, 300, 200, 300] → 200
+
+Complexity:
+Time: O(n) approximately without an index
+Space: O(1)
+
+Key Learning:
+- Subqueries can calculate values used by WHERE.
+- Strictly less than (<) handles duplicate maximum salaries.
+- MAX() returns NULL when no qualifying values exist.
 
 ## Accepted submissions
 
