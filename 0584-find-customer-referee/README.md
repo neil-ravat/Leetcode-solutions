@@ -9,6 +9,29 @@
 
 ### Submission notes
 
+From accepted submission [#2192711654](https://leetcode.com/problems/find-customer-referee/submissions/2192711654/).
+
+Pattern: Boolean Filtering + Missing Values
+
+Approach:
+1. Check referee_id != 2.
+2. Check referee_id.isna() for missing values.
+3. Combine both conditions with OR (|).
+4. Return only the name column using .loc.
+
+Key Learning:
+- .isna() detects missing values.
+- .notna() detects non-missing values.
+- | combines two Boolean conditions.
+- NULL handling in SQL and Pandas differs.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+---
+
+### Submission notes
+
 From accepted submission [#2191318087](https://leetcode.com/problems/find-customer-referee/submissions/2191318087/).
 
 LeetCode 584 — Find Customer Referee
