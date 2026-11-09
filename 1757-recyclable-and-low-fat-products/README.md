@@ -9,6 +9,28 @@
 
 ### Submission notes
 
+From accepted submission [#2192706727](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2192706727/).
+
+Pattern: Boolean Filtering (AND)
+
+Approach:
+1. Check low_fats == 'Y'.
+2. Check recyclable == 'Y'.
+3. Combine both conditions using & (AND).
+4. Use .loc to return only matching product IDs.
+
+Key Learning:
+- & requires both conditions to be True.
+- Use parentheses around each condition.
+- .loc[condition, ['column']] returns a DataFrame.
+
+Time Complexity: O(n)
+Space Complexity: O(n) for the mask and result.
+
+---
+
+### Submission notes
+
 From accepted submission [#2191313360](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2191313360/).
 
 LeetCode 1757 — Recyclable and Low Fat Products
@@ -41,6 +63,7 @@ Key Learnings:
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2192706727](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2192706727/) | 2026-11-09 18:43:58 | pythondata | [Source](submissions/2192706727.py) |
 | [2191313360](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2191313360/) | 2026-11-07 14:22:52 | mysql | [Source](submissions/2191313360.sql) |
 | [2045924356](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2045924356/) | 2026-06-25 15:19:49 | mysql | [Source](submissions/2045924356.sql) |
 <!-- leetcode-notes-sync:end -->
