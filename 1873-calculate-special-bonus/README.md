@@ -9,6 +9,32 @@
 
 ### Submission notes
 
+From accepted submission [#2192758658](https://leetcode.com/problems/calculate-special-bonus/submissions/2192758658/).
+
+LeetCode #1873 — Calculate Special Bonus
+
+Pattern: Boolean Masking + Conditional Assignment
+
+Approach:
+1. Check odd IDs using employee_id % 2 != 0.
+2. Exclude names starting with M using ~ and .str.startswith().
+3. Initialize bonus = 0 for every employee.
+4. Use .loc[condition, 'bonus'] to assign eligible salaries.
+5. Sort by employee_id and return employee_id, bonus.
+
+Key Learning:
+- ~ negates a Boolean mask.
+- .str.startswith() checks string prefixes.
+- .loc[mask, column] updates selected rows without
+  overwriting the entire column.
+
+Time: O(n log n) including sorting
+Space: O(n) for masking and sorting
+
+---
+
+### Submission notes
+
 From accepted submission [#2192136239](https://leetcode.com/problems/calculate-special-bonus/submissions/2192136239/).
 
 LeetCode 1873 — Calculate Special Bonus
