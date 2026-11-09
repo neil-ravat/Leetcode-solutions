@@ -9,6 +9,27 @@
 
 ### Submission notes
 
+From accepted submission [#2192750063](https://leetcode.com/problems/invalid-tweets/submissions/2192750063/).
+
+Pattern: String Operations + Boolean Filtering
+
+Approach:
+1. Use .str.len() to calculate each tweet's length.
+2. Filter tweets where length > 15.
+3. Return only the tweet_id column using .loc.
+
+Key Learning:
+- .str.len() calculates string lengths in a Series.
+- > 15 excludes tweets of exactly 15 characters.
+- .loc[condition, columns] returns matching rows.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+---
+
+### Submission notes
+
 From accepted submission [#2191338256](https://leetcode.com/problems/invalid-tweets/submissions/2191338256/).
 
 LeetCode 1683 — Invalid Tweets
