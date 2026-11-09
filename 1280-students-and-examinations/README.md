@@ -7,7 +7,32 @@
 
 ## My notes
 
-_No saved LeetCode notes yet._
+### Submission notes
+
+From accepted submission [#2192511258](https://leetcode.com/problems/students-and-examinations/submissions/2192511258/).
+
+1280. Students and Examinations
+Difficulty: Easy
+Topic: CROSS JOIN, LEFT JOIN, GROUP BY, COUNT
+
+Approach:
+1. CROSS JOIN creates every student-subject pair.
+2. LEFT JOIN matches examination records using BOTH
+   student_id and subject_name.
+3. Repeated examination records create multiple matches.
+4. GROUP BY creates one group per student-subject pair.
+5. COUNT(e.student_id) counts actual examinations,
+   ignoring NULL values.
+6. ORDER BY student_id, subject_name.
+
+Important:
+- COUNT(*) would incorrectly count unmatched pairs as 1.
+- LEFT JOIN can increase row count when multiple matches exist.
+- GROUP BY must include the subject to count separately.
+- Always check the exact required sorting order.
+
+Pattern:
+Generate all combinations → Match records → Group → Count
 
 ## Accepted submissions
 
