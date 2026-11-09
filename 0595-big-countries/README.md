@@ -9,6 +9,31 @@
 
 ### Submission notes
 
+From accepted submission [#2192701983](https://leetcode.com/problems/big-countries/submissions/2192701983/).
+
+Approach: Boolean Filtering (OR)
+
+1. Create two conditions:
+   - Population >= 25,000,000
+   - Area >= 3,000,000
+
+2. Combine both conditions using | (OR).
+3. Use .loc to filter matching rows and select
+   only name, population, and area.
+
+Key Learning:
+- & means AND; | means OR.
+- Wrap each condition in parentheses.
+- >= includes the boundary value.
+- .loc[rows, columns] filters rows and selects columns.
+
+Time Complexity: O(n)
+Space Complexity: O(n) for the Boolean mask and result.
+
+---
+
+### Submission notes
+
 From accepted submission [#2191332362](https://leetcode.com/problems/big-countries/submissions/2191332362/).
 
 LeetCode 595 — Big Countries
