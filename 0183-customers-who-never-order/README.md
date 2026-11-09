@@ -40,5 +40,6 @@ Key Learnings:
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2192739315](https://leetcode.com/problems/customers-who-never-order/submissions/2192739315/) | 2026-11-09 19:55:08 | pythondata | [Source](submissions/2192739315.py) |
 | [2192150196](https://leetcode.com/problems/customers-who-never-order/submissions/2192150196/) | 2026-11-08 22:13:52 | mysql | [Source](submissions/2192150196.sql) |
 <!-- leetcode-notes-sync:end -->
