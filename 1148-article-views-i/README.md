@@ -9,6 +9,30 @@
 
 ### Submission notes
 
+From accepted submission [#2192745096](https://leetcode.com/problems/article-views-i/submissions/2192745096/).
+
+Pattern: Filtering + Duplicates + Sorting
+
+Approach:
+1. Rename author_id to id.
+2. Filter where id == viewer_id.
+3. Use drop_duplicates(subset="id") to get unique authors.
+4. Sort by id in ascending order.
+5. Return only the id column.
+
+Key Learning:
+- Columns can be compared directly.
+- drop_duplicates() removes repeated records.
+- sort_values() controls output ordering.
+- Method chaining combines multiple operations.
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+---
+
+### Submission notes
+
 From accepted submission [#2191325489](https://leetcode.com/problems/article-views-i/submissions/2191325489/).
 
 LeetCode 1148 — Article Views I
