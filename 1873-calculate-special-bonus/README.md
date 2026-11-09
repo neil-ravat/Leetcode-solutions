@@ -46,5 +46,6 @@ Key Learnings:
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2192758658](https://leetcode.com/problems/calculate-special-bonus/submissions/2192758658/) | 2026-11-09 20:48:58 | pythondata | [Source](submissions/2192758658.py) |
 | [2192136239](https://leetcode.com/problems/calculate-special-bonus/submissions/2192136239/) | 2026-11-08 21:17:11 | mysql | [Source](submissions/2192136239.sql) |
 <!-- leetcode-notes-sync:end -->
