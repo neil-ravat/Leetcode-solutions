@@ -9,6 +9,33 @@
 
 ### Submission notes
 
+From accepted submission [#2193933000](https://leetcode.com/problems/second-highest-salary/submissions/2193933000/).
+
+LeetCode #176 — Second Highest Salary
+Pattern: Deduplication + Sorting + Indexing
+
+Approach:
+1. Remove duplicate salaries.
+2. Sort salaries in descending order.
+3. Check whether at least 2 distinct salaries exist.
+4. Use .iloc[1] to get the second highest salary.
+5. Otherwise, return None.
+6. Return a one-row DataFrame.
+
+Key Learnings:
+- drop_duplicates() removes repeated values.
+- ascending=False sorts highest to lowest.
+- iloc[1] accesses the second row by position.
+- Always check length before accessing an index.
+- DataFrame columns need list values: [value].
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+---
+
+### Submission notes
+
 From accepted submission [#2192148225](https://leetcode.com/problems/second-highest-salary/submissions/2192148225/).
 
 176. Second Highest Salary
