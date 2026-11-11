@@ -40,5 +40,6 @@ Key Learning:
 
 | Submission | Submitted (UTC) | Language | Code |
 | --- | --- | --- | --- |
+| [2193933000](https://leetcode.com/problems/second-highest-salary/submissions/2193933000/) | 2026-11-11 14:22:33 | pythondata | [Source](submissions/2193933000.py) |
 | [2192148225](https://leetcode.com/problems/second-highest-salary/submissions/2192148225/) | 2026-11-08 22:05:49 | mysql | [Source](submissions/2192148225.sql) |
 <!-- leetcode-notes-sync:end -->
